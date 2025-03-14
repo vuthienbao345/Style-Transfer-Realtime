@@ -105,7 +105,7 @@ if __name__ == '__main__':
         extractor=extractor,
         transfer_loss_fn=transfer_loss_fn,
         target_size=(1280,720), # W, H
-        target_fps=30,
+        target_fps=10,
         steps_per_frame=50,
         lr=0.02
     )
