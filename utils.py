@@ -40,7 +40,7 @@ def plot_image(tensor, title=None, save=False, save_path=None):
     img = transforms.ToPILImage()(img)
 
     if save:
-        os.makedirs(save_path, exist_ok=True)
+        # os.makedirs(save_path, exist_ok=True)
         img.save(save_path)
 
     plt.figure()

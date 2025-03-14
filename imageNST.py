@@ -1,3 +1,4 @@
+import os
 import torch
 from PIL import Image
 from tqdm import tqdm
@@ -55,6 +56,8 @@ def NST_image(content_img_path, style_img_path, output_path, extractor, transfer
     print('Done!')
             
 if __name__ == '__main__':
+    os.makedirs('results', exist_ok=True)
+    
     # Extractor and Loss Funcntion
     extractor        = VGG19_FeatureExtractor()
     transfer_loss_fn = TransferLoss(content_weight=1, style_weight=1e5)

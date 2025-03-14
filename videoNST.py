@@ -1,3 +1,4 @@
+import os
 import torch
 import cv2
 from tqdm import tqdm
@@ -89,6 +90,8 @@ def NST_video(video_path, style_img_path, output_path, extractor, transfer_loss_
     print('Done!')
     
 if __name__ == '__main__':
+    os.makedirs('results', exist_ok=True)
+    
     # Extractor and Loss Funcntion
     extractor        = VGG19_FeatureExtractor()
     transfer_loss_fn = TransferLoss(content_weight=1, style_weight=1e5)
@@ -98,7 +101,7 @@ if __name__ == '__main__':
     NST_video(
         video_path='resources/videos/content_vid_2s.mp4',
         style_img_path='resources/styles/style1.png',
-        output_path='results/transfered_vid.png',
+        output_path='results/transfered_vid.mp4',
         extractor=extractor,
         transfer_loss_fn=transfer_loss_fn,
         target_size=(1280,720), # W, H
