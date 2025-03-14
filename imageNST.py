@@ -45,11 +45,10 @@ def NST_image(content_img_path, style_img_path, output_path, extractor, transfer
 
             # Plot image
             if step == 1 or step % 20 == 0:
-                if step == steps:
-                    plot_image(target_img, f"Target Image", save=True, save_path=output_path)
-                    print('Target Image saved!')
-                else:
-                    plot_image(target_img, f"Target Image at step {step}")
+                plot_image(target_img, f"Target Image at step {step}")
+            if step == steps:
+                plot_image(target_img, f"Target Image", save=True, save_path=output_path)
+                print('Target Image saved!')
 
             # Update pbar
             pbar.update(1)
