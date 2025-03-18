@@ -1,4 +1,4 @@
-# Fast Style Transfer - Real-Time Artistic Image & Video Transformation
+# RealTime Style Transfer - Real-Time Artistic Image & Video Transformation
 
 ## 📌 Overview
 
