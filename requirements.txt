@@ -7,3 +7,4 @@ matplotlib
 tqdm
 streamlit
 wget
+opencv-python-headless
