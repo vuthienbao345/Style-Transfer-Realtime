@@ -9,7 +9,10 @@ This project implements **Fast Style Transfer** for images, videos, and real-tim
 
 The project includes implementations for both **slow NST** and **fast NST**, enabling artistic transformations in **real-time** with a lightweight Transformer Network.
 
-![alt text](assets\demo_img.png)
+<p align="center">
+  <img src="assets/demo_img.png" width="55%">
+  <img src="assets/demo_real.png" width="40%">
+</p>
 
 
 ## 🚀 Key Features
