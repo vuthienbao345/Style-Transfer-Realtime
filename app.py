@@ -108,7 +108,8 @@ def get_video_info(video):
 def inference(content_image, checkpoint_model):
     # Load model
     transformer = TransformerNet().to(device)
-    transformer.load_state_dict(torch.load(checkpoint_model, weights_only=True))
+    # transformer.load_state_dict(torch.load(checkpoint_model, weights_only=True))
+    transformer.load_state_dict(torch.load(checkpoint_model, map_location=device))
     transformer.eval()
     
     # Inference
@@ -123,7 +124,8 @@ def inference(content_image, checkpoint_model):
 def inference_video(content_video, checkpoint_model, output_path):
     # Load model
     transformer = TransformerNet().to(device)
-    transformer.load_state_dict(torch.load(checkpoint_model, weights_only=True))
+    # transformer.load_state_dict(torch.load(checkpoint_model, weights_only=True))
+    transformer.load_state_dict(torch.load(checkpoint_model, map_location=device))
     transformer.eval()
 
     # Video attributes
