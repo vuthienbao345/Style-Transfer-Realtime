@@ -86,7 +86,7 @@ Realtime-Style-Transfer/
 **To run the Streamlit webapp**:
 ```bash
 # Clone the Repository
-git clone https://github.com/YuITC/Realtime-Style-Transfer.git
+git clone https://github.com/vuthienbao345/Style-Transfer-Realtime.git
 cd Realtime-Style-Transfer
 
 # Install Dependencies
