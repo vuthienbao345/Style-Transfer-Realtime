@@ -117,8 +117,3 @@ This project is licensed under the MIT License – feel free to modify and distr
 
 ## 🤝 Acknowledgments
 If you find this project useful, consider ⭐️ starring the repository or contributing to further improvements!
-
-## 📬 Contact
-For any questions or collaboration opportunities, feel free to reach out:
-
-📧 Email: tainguyenphu2502@gmail.com
