@@ -112,8 +112,6 @@ python real_time_NST.py
 - GPU: NVIDIA Tesla T4 (16GB)
 - Dataset: COCO2017 (40K images)
 
-## 📜 License
-This project is licensed under the MIT License – feel free to modify and distribute it as needed.
-
 ## 🤝 Acknowledgments
 If you find this project useful, consider ⭐️ starring the repository or contributing to further improvements!
+ 
