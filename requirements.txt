@@ -1,10 +1,10 @@
-torch
-torchvision
-numpy
-opencv-python
-pillow
-matplotlib
-tqdm
-streamlit
-wget
-opencv-python-headless
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy==1.24.3
+opencv-python-headless==4.8.0.76
+pillow==10.0.0
+matplotlib==3.7.2
+tqdm==4.65.0
+streamlit==1.25.0
+wget==3.2
