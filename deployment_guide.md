@@ -20,16 +20,16 @@ Streamlit Cloud is the best platform for deploying Streamlit applications.
 - Built-in caching and performance optimizations
 
 ### Option 2: Heroku
-<!-- Heroku supports Python applications well. -->
+Heroku supports Python applications well.
 
-**Steps:**
+<!-- **Steps:**
 1. Create a `Procfile`:
    ```
    web: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
    ```
 2. Install Heroku CLI
 3. Run: `heroku create your-app-name`
-4. Run: `git push heroku main`
+4. Run: `git push heroku main` -->
 
 ### Option 3: Railway
 Railway is a modern alternative to Heroku.
