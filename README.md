@@ -86,7 +86,7 @@ Realtime-Style-Transfer/
 **To run the Streamlit webapp**:
 ```bash
 # Clone the Repository
-git clone https://github.com/YuITC/Realtime-Style-Transfer.git
+git clone https://github.com/vuthienbao345/Style-Transfer-Realtime.git
 cd Realtime-Style-Transfer
 
 # Install Dependencies
@@ -112,13 +112,6 @@ python real_time_NST.py
 - GPU: NVIDIA Tesla T4 (16GB)
 - Dataset: COCO2017 (40K images)
 
-## 📜 License
-This project is licensed under the MIT License – feel free to modify and distribute it as needed.
-
 ## 🤝 Acknowledgments
 If you find this project useful, consider ⭐️ starring the repository or contributing to further improvements!
-
-## 📬 Contact
-For any questions or collaboration opportunities, feel free to reach out:
-
-📧 Email: tainguyenphu2502@gmail.com
+ 
