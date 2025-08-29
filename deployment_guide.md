@@ -22,14 +22,14 @@ Streamlit Cloud is the best platform for deploying Streamlit applications.
 ### Option 2: Heroku
 Heroku supports Python applications well.
 
-<!-- **Steps:**
+**Steps:**
 1. Create a `Procfile`:
    ```
    web: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
    ```
 2. Install Heroku CLI
 3. Run: `heroku create your-app-name`
-4. Run: `git push heroku main` -->
+4. Run: `git push heroku main`
 
 ### Option 3: Railway
 Railway is a modern alternative to Heroku.
@@ -90,7 +90,7 @@ EXPOSE 8080
 CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0.0"]
 ```
 
-## 🎯 Quick Start with Streamlit Cloud
+<!-- ## 🎯 Quick Start with Streamlit Cloud
 
 1. **Prepare your repository:**
    - Ensure all files are committed to GitHub
@@ -106,7 +106,7 @@ CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0
 3. **Monitor:**
    - Check the deployment logs for any issues
    - Test the application functionality
-   - Monitor resource usage
+   - Monitor resource usage -->
 
 ## 💡 Optimization Tips
 
