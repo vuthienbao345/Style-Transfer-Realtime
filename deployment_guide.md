@@ -90,7 +90,7 @@ EXPOSE 8080
 CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0.0"]
 ```
 
-<!-- ## 🎯 Quick Start with Streamlit Cloud
+## 🎯 Quick Start with Streamlit Cloud
 
 1. **Prepare your repository:**
    - Ensure all files are committed to GitHub
@@ -106,7 +106,7 @@ CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0
 3. **Monitor:**
    - Check the deployment logs for any issues
    - Test the application functionality
-   - Monitor resource usage -->
+   - Monitor resource usage
 
 ## 💡 Optimization Tips
 
