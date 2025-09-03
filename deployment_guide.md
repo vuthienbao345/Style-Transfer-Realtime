@@ -108,7 +108,7 @@ CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0
    - Test the application functionality
    - Monitor resource usage -->
 
-<!-- ## 💡 Optimization Tips
+## 💡 Optimization Tips
 
 1. **Reduce model size:** Consider using smaller, optimized models
 2. **Add caching:** Use `@st.cache_data` for expensive operations
@@ -122,7 +122,7 @@ CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0
 - **Memory errors:** Reduce batch sizes or model complexity
 - **Timeout errors:** Add progress indicators and optimize processing
 - **Import errors:** Check all dependencies are in `requirements.txt`
-- **File not found:** Ensure all assets are in the correct paths -->
+- **File not found:** Ensure all assets are in the correct paths
 
 ### Getting Help:
 - Check Streamlit documentation
